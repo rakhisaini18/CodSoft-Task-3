@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Oswald:wght@500&family=Oxygen&family=Poppins&family=Roboto:wght@700&family=Stylish&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Allura', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Stylish', serif;    
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(5, 248, 248), rgb(128, 196, 196), rgb(225, 233, 233));
+}
+
+.calculator-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    border: 1px solid rgb(113, 113, 113);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(47, 39, 39);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+input,#Display{
+    color: white;
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 25px;
+    margin: 10px;
+    background: transparent;
+    border-radius: 25px;
+    box-shadow: -3px -3px 15px rgb(73, 72, 72);
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.signs{
+    background-color: transparent;
+    color: rgb(5, 248, 248);
+
+}
+
+.signs:hover{
+   background-color: rgb(5, 248, 248);
+   color: white;
+}
+
+.cancel{
+    background-color: transparent;
+    color: grey;
+}
+
+.cancel:hover{
+    background-color: grey;
+    color: white;
+}
+
+.delete{
+    background-color: transparent;
+    color: grey;
+}
+
+.delete:hover{
+    background-color: grey;
+    color: white;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 10px;
+    border-radius: 30% 30% / 80% 80%;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    background: transparent;
+    box-shadow: -5px -5px 15px rgb(73, 72, 72);
+    cursor: pointer;
+}
+
+
